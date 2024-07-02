@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
-    "composite": true,
+    // "composite": false,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "plugins": [{
+      "name": "typescript-plugin-css-modules"}
+    ],
+    "incremental": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -23,5 +27,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src", "src/**/*.module.scss"]
 }
