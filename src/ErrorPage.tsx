@@ -13,15 +13,16 @@ const getErrorMsg = (err: unknown) => {
     return err;
   }
   return 'Unknown error';
-}
+};
 
-const ErrorPage = () =>
+const ErrorPage = () => (
   <div>
     <h1>Oops!</h1>
     <p>Sorry, an unexpected error has occurred.</p>
     <p>
       <i>{getErrorMsg(useRouteError())}</i>
     </p>
-  </div>;
+  </div>
+);
 
 export default ErrorPage;
