@@ -1,0 +1,13 @@
+@use '../../styles/variables.scss' as v;
+
+.container {
+  height: v.$globalFooterHeight;
+  background-color: var(--theme-primary-color);
+  color: white;
+  padding: 20px 0;
+
+  .subtitle {
+    margin-top: 0;
+    text-align: center;
+  }
+}
