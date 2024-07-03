@@ -1,7 +1,7 @@
-import { GoalType } from '../../const/enums';
+import { GoalType } from './enums';
 
 interface MenuItem {
-  route: string;
+  router: string;
   name: string;
   type: GoalType;
   icon?: unknown;
@@ -9,22 +9,22 @@ interface MenuItem {
 
 const config: MenuItem[] = [
   {
-    route: 'junior-accountant',
+    router: 'junior-accountant',
     name: '初级会计师',
     type: GoalType.JuniorAccountant,
   },
   {
-    route: 'intermediate-accountant',
+    router: 'intermediate-accountant',
     name: '中级会计师',
     type: GoalType.IntermediateAccountant,
   },
   {
-    route: 'senior-accountant',
+    router: 'senior-accountant',
     name: '高级会计师',
     type: GoalType.SeniorAccountant,
   },
   {
-    route: 'finance-related',
+    router: 'finance-related',
     name: '证券/基金/期货/银行',
     type: GoalType.FinanceRelated,
   },
