@@ -85,3 +85,11 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+li {
+  list-style: none;
+}
+
+h3 {
+  margin: 0;
+}

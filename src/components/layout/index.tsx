@@ -7,13 +7,13 @@ import { main } from './index.module.scss';
 
 const Layout = () => {
   return (
-    <div>
+    <>
       <Header />
       <div className={main}>
         <Outlet />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

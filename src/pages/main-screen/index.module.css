@@ -1,0 +1,14 @@
+.bannerContainer {
+  user-select: none;
+  overflow: hidden;
+
+  .itemWrapper {
+    height: 360px;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+.blockContainer {}

@@ -1,0 +1,33 @@
+.block {
+  display: flex;
+  padding: 80px 0;
+  align-items: flex-start;
+  justify-content: center;
+
+  &:nth-child(odd) {
+    background-color: #f5f5f5;
+
+    .text {
+      margin-left: 100px;
+    }
+  }
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: white;
+
+    .text {
+      margin-right: 100px;
+    }
+  }
+
+  .text {
+    width: 400px;
+    margin-top: 60px;
+
+    h3 {
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+}
