@@ -3,7 +3,6 @@
   overflow: hidden;
 
   .itemWrapper {
-    height: 460px;
 
     img {
       width: 100%;
@@ -12,5 +11,4 @@
   }
 }
 
-.blockContainer {
-}
+.blockContainer {}
